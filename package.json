@@ -1,0 +1,19 @@
+{
+  "name": "coca-cola-league",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Coca-Cola League Assistant: round results, standings and settlements for a private EuroLeague fantasy group.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "node scripts/check.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}

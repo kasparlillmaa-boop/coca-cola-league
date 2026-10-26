@@ -82,6 +82,7 @@ function layout({ title, active, body, demo }) {
   <main class="container">${body}</main>
   <footer class="container site-footer">
     ${PLAYERS.join(' · ')} · Top two win, bottom two bring the Coca-Cola. Settled every ${PERIOD_LENGTH} rounds.
+    <p class="footer-copy">© 2026 Coca-Cola League Assistant</p>
   </footer>
 </body>
 </html>`.toString();
